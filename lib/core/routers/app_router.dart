@@ -6,18 +6,14 @@ import 'package:flutter/material.dart';
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case Routes.onboardingScreen:
-        return MaterialPageRoute(
-          builder: (BuildContext context) => OnboardingScreen(),
-        );
-      case Routes.loginScreen:
-        return MaterialPageRoute(
-          builder: (BuildContext context) => LoginScreen(),
-        );
+      case Routes.onboardingPage:
+        return MaterialPageRoute(builder: (_) => const OnboardingScreen());
+      case Routes.loginPage:
+        return MaterialPageRoute(builder: (_) => const LoginScreen());
       default:
         return MaterialPageRoute(
-          builder: (context) => Scaffold(
-            body: Center(child: Text("no defined Route For ${settings.name}")),
+          builder: (_) => Scaffold(
+            body: Center(child: Text("No Defined Route For ${settings.name}")),
           ),
         );
     }
