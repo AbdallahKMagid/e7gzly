@@ -29,26 +29,20 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.8
-  
-  #localization
-  easy_localization: ^3.0.8 
-  intl: ^0.20.2
+  dio: ^5.9.1
+  easy_localization: ^3.0.8
   flutter:
     sdk: flutter
-    #state mangement
   flutter_bloc: ^9.1.1
-  #for splash screen
   flutter_native_splash: ^2.4.7
-  #code generator mainly used with cubit & retrofit
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.3
   freezed: ^3.2.5
   freezed_annotation: ^3.1.0
-  #dependeny injection
   get_it: ^9.2.0
- #Automatic code generator for convert from & to json 
+  intl: ^0.20.2
   json_annotation: ^4.10.0
   json_serializable: ^6.12.0
-  #networking
-  dio: ^5.9.1
   pretty_dio_logger: ^1.4.0
   retrofit: ^4.9.2
   retrofit_generator: ^10.2.1
