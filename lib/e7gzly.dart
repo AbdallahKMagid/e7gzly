@@ -14,7 +14,7 @@ class E7gzly extends StatelessWidget {
       designSize: const Size(375, 812),
       minTextAdapt: true,
       child: MaterialApp(
-        initialRoute: Routes.onboardingPage,
+        initialRoute: Routes.onboardingScreen,
         onGenerateRoute: appRouter.generateRoute,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(

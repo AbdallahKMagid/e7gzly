@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case Routes.onboardingPage:
+      case Routes.onboardingScreen:
         return MaterialPageRoute(builder: (_) => const OnboardingScreen());
-      case Routes.loginPage:
+      case Routes.loginScreen:
         return MaterialPageRoute(builder: (_) => const LoginScreen());
       default:
         return MaterialPageRoute(
