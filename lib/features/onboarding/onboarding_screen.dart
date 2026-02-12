@@ -28,7 +28,7 @@ class OnboardingScreen extends StatelessWidget {
                         maxLines: 2,
                         textAlign: TextAlign.center,
                         style: TextStyles.font13RegularGrey,
-                        "Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.",
+                        "Manage and schedule your medical appointments easily with Docdoc to get a new experience.",
                       ),
                       SizedBox(height: 30.h),
                       const GetStartedButton(),
