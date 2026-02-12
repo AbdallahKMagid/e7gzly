@@ -13,17 +13,15 @@ class E7gzly extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       minTextAdapt: true,
-      builder: (context, child) {
-        return MaterialApp(
-          initialRoute: Routes.onboardingScreen,
-          onGenerateRoute: appRouter.generateRoute,
-          debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            primaryColor: ColorManger.mainBlue,
-            scaffoldBackgroundColor: Colors.white,
-          ),
-        );
-      },
+      child: MaterialApp(
+        initialRoute: Routes.onboardingScreen,
+        onGenerateRoute: appRouter.generateRoute,
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primaryColor: ColorManger.mainBlue,
+          scaffoldBackgroundColor: Colors.white,
+        ),
+      ),
     );
   }
 }
